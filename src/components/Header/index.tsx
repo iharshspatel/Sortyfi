@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import menuData from "./menuData";
 
 const Header = () => {
-  // const { data: session } = null;
+  // const { data: session } = useSession();
 
   const pathUrl = usePathname();
   // Navbar toggle
